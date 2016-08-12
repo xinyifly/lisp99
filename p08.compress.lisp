@@ -10,7 +10,6 @@
 (defun compress (lista)
   (cond
     ((null lista) nil)
-    ((null (cdr lista)) lista)
     ((eql (first lista) (first (rest lista)))
      (compress (rest lista)))
     (t (cons (first lista) (compress (rest lista))))))
