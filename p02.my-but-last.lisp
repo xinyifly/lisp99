@@ -8,7 +8,4 @@
   (let ((reverso (reverse lista)))
     (if (<= (length reverso) 2)
         lista
-        (list (second reverso) (first reverso))
-        )
-    )
-  )
+        (list (second reverso) (first reverso)))))

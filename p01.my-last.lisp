@@ -9,7 +9,4 @@
       nil
       (if (null (rest lista))
           lista
-          (my-last (rest lista))
-          )
-      )
-  )
+          (my-last (rest lista)))))

@@ -8,6 +8,4 @@
 (defun element-at (lista n)
   (if (= n 1)
       (first lista)
-      (element-at (rest lista) (1- n))
-      )
-  )
+      (element-at (rest lista) (1- n))))
